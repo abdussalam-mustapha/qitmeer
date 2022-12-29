@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(to right top, rgb(129, 2, 143) 20%, rgb(1, 88, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.container {
+    background-color: #fff;
+    width: 800px;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.links-container {
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgb(231, 229, 229);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.para {
+    width: 100%;
+    background-color: rgb(231, 229, 229);
+}
+
+.para-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px
+}
+
+.para-section .para-links {
+    margin: 0 20px;
+}
+
+p {
+    font-size: 25px;
+}
+
+a {
+    font-size: 25px;
+}
+
+input {
+    margin: 20px 0;
+    width: 400px;
+    height: 20px;
+    padding: 0 10px;
+    border-radius: 50px;
+    background-color: rgb(243, 242, 242);
+    caret-color: green;
+}
+
+button {
+    background-color: rgb(1, 88, 1);
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.btn-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background: linear-gradient(to right top, rgb(129, 2, 143) 10%, rgb(1, 88, 1) 50%);
+    width: 200px;
+}
