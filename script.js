@@ -1,5 +1,7 @@
 let btn = document.querySelector(".reflink")
+let submitBtn = document.querySelector(".btn")
 let ref = document.querySelector(".links-container")
+let val = document.querySelector(".textVal")
 
 
 const refLink = document.createElement("p")
@@ -15,5 +17,13 @@ let baseUrl = "https://qitmeer.vercel.app/"
 btn.onclick = (e) => {
     createRef(baseUrl, referralId)
     e.preventDefault()
+}
+
+submitBtn.onclick = () => {
+    const userInputs = {
+        tkn : val.value
+    }
+    
+    localStorage.setItem("user", JSON.stringify(userInputs))
 }
 
