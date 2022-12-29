@@ -19,11 +19,13 @@ btn.onclick = (e) => {
     e.preventDefault()
 }
 
-submitBtn.onclick = () => {
+submitBtn.onclick = (e) => {
     const userInputs = {
         tkn : val.value
     }
     
     localStorage.setItem("user", JSON.stringify(userInputs))
+    e.preventDefault()
+
 }
 
