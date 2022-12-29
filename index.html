@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <base target="_top">
 </head>
 <body>
     <div class="container">
@@ -49,10 +50,10 @@
                 </div>
                     <button>+1</button>
             </div>
-            <form action="">
-                <input type="text" value="" class="textVal">
+            <form id="form"method="POST" action="https://script.google.com/macros/s/AKfycbxMaSYcf1h0yXQwBlCjfRdYbK3-fl6aFdt6CU5ylaclzGF9_uZ2EVv2slGDJOzqyuTv/exec">
+                <input type="text" value="" class="form-data">
                 <div class="btn-div">
-                    <button class="btn">Submit</button>
+                    <button class="btn" onclick="send_data()">Submit</button>
                 </div>
             </form>
         </div>
