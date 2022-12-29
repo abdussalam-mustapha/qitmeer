@@ -1,6 +1,6 @@
 let btn = document.querySelector(".reflink")
 let submitBtn = document.querySelector(".btn")
-let ref = document.querySelector(".links-container")
+let ref = document.querySelector(".links-container-main")
 let val = document.querySelector(".form-data")
 
 
