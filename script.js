@@ -10,7 +10,7 @@ function createRef(baseUrl, referralId) {
 }
 
 let referralId = ("" + Math.random()).substring(2, 8);
-let baseUrl = ""
+let baseUrl = "https://qitmeer.vercel.app/"
 
 btn.onclick = (e) => {
     createRef(baseUrl, referralId)
