@@ -1,9 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
     background: linear-gradient(to right top, rgb(129, 2, 143) 20%, rgb(1, 88, 1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     color: rgb(104, 103, 103);
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
