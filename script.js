@@ -1,4 +1,5 @@
 let btn = document.querySelector(".reflink")
+let btnTwo = document.querySelector(".reflink-2")
 let submitBtn = document.querySelector(".btn")
 let ref = document.querySelector(".links-container-main")
 let val = document.querySelector(".form-data")
@@ -15,6 +16,11 @@ let referralId = ("" + Math.random()).substring(2, 8);
 let baseUrl = "https://qitmeer.vercel.app/"
 
 btn.onclick = (e) => {
+    createRef(baseUrl, referralId)
+    e.preventDefault()
+}
+
+btnTwo.onclick = (e) => {
     createRef(baseUrl, referralId)
     e.preventDefault()
 }
